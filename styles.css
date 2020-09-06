@@ -7,9 +7,9 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #eaeaea;
 }
 /* Link Styles */
 
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: pink;
+    color: whitesmoke;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -57,6 +57,12 @@ a:hover {
 
 header {
   text-align: center;
+  background: url('images/seattlebw.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 5px;
+}
+header:hover {
   background: url('images/seattle.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
@@ -66,15 +72,15 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
+  margin-top: 65px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid orange;
+  border: 3px solid whitesmoke;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(12deg);
+  transform: scale(1.1) rotate(4deg);
 }
 .tag {
   background-color: #efefef;
@@ -86,7 +92,7 @@ header .profile-image:hover {
 }
 .location {
   background-color: #222;
-  color: yellow;
+  color: whitesmoke;
 }
 .card {
   margin: 30px;
@@ -110,14 +116,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: whitesmoke;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: gray;
 }
 
 footer {
