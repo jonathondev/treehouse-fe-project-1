@@ -85,10 +85,10 @@ header .profile-image:hover {
 .tag {
   background-color: #efefef;
   color: black;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 3px;
+  border-radius: 3px;
   display: table;
-  margin: 10px auto;
+  margin: 3px auto;
 }
 .location {
   background-color: #222;
@@ -116,7 +116,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: whitesmoke;
+  background: black;
   color: white;
   padding: 5px 10px;
   margin: 2px;
