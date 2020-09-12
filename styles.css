@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.bar-nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -76,7 +76,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid whitesmoke;
+  border: 5px solid whitesmoke;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -94,7 +94,7 @@ header .profile-image:hover {
   background-color: #222;
   color: whitesmoke;
 }
-.card {
+.article {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -104,7 +104,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.article:hover {
   border-color: #ff99ff;
 }
 
