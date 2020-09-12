@@ -126,6 +126,26 @@ ul.skills {
   background: gray;
 }
 
+/* image gallery attempt */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1px;
+}
+
+/* ideally this will be tree columns */
+.column {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 5px;
+    vertical-align: middle;
+    width: 200%;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
