@@ -133,18 +133,19 @@ ul.skills {
     padding: 0 1px;
 }
 
-/* ideally this will be tree columns */
+/* ideally this will be three columns */
 .column {
-    flex: 25%;
-    max-width: 50%;
+    flex: 50%;
+    max-width: 100%;
     padding: 0 4px;
 }
 
 .column img {
     margin-top: 5px;
     vertical-align: middle;
-    width: 200%;
+    width: 33%;
 }
+/* giving up on the columns this is too far ahead right now */
 
 footer {
   width: 100%;
